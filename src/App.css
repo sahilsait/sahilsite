@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.home {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.home h1 {
+background: -webkit-linear-gradient( #4776E6, #8E54E9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.photo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    vertical-align: middle;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.avatar {
+    height: 200px;
+    width: 200px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bio {
+    margin-bottom: 2rem;
+    font-size: large;
+}
+
+.social-networks {
+    margin-bottom: 3rem;
+}
+
+.social-networks a {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-size: larger;
+    color: black;
+}
+
+.btn {
+    text-decoration: none;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    font-size: large;
+    font-weight: 600;
+    padding:16px 32px;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to left, #4776E6,#8E54E9);
+    border-radius: 30px;
+}

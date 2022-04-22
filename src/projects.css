@@ -1,0 +1,45 @@
+.projectPage {
+    margin-top: 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to left, #4776E6, #8E54E9);
+}
+
+.projects {
+    flex-grow: 1;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.project {
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.4));
+    margin-bottom: 1rem;
+    width: 80%; 
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.project h3 {
+    font-size: x-large;
+    background: -webkit-linear-gradient( #4776E6, #8E54E9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.upBtn {
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .projects {
+        width: 80%;
+    }
+  }
+
