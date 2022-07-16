@@ -30,7 +30,7 @@ function App() {
       </div>
       <div className='buttons'>
         <Link className='btn' to='#projects'  smooth>Projects</Link>
-        <a className='btn' href='https://drive.google.com/file/d/1ylxVoGn_LdS4NDuQ0-pJxI71_fE9e4uf/view?usp=sharing' target="_blank" noopener noreferrer>Resume</a>
+        <a className='btn' href='https://drive.google.com/file/d/1cDZavfw77-TC_Ktv7DU4srbLVS0qa8y2/view?usp=sharing' target="_blank" noopener noreferrer>Resume</a>
       </div>
     </div>
     <div id='projects'>
