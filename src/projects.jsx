@@ -14,8 +14,8 @@ const Projects = () => {
             return(
               <div className='project' key={project.name}>
                 <h3 style={{marginBottom: "1rem"}}>{project.name}</h3>
-                <p style={{marginBottom: "0.5rem"}}>{project.description}</p>
-                <a style={{textDecoration: "none", color: "black", fontWeight: "600"}} href='#'>Live Demo</a>
+                <p style={{marginBottom: "0.75rem"}}>{project.description}</p>
+                <a style={{textDecoration: "none", color: "black", fontWeight: "600"}} href='#'>Show Me!</a>
               </div>
             )
           })}

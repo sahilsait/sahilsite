@@ -20,9 +20,9 @@ function App() {
         Software Engineer in the making
       </div>
       <div className='social-networks'>
-        <a href='https://twitter.com/sahilsaitn' target="_blank" noopener noreferrer><FaTwitter/></a>
         <a href='https://www.linkedin.com/in/sahilsait/' target="_blank" noopener noreferrer><FaLinkedin /></a>
-        <a href='https://github.com/SahilSait' target="_blank" noopener noreferrer><FaGithub /></a>
+        <a href='https://github.com/sahilsait' target="_blank" noopener noreferrer><FaGithub /></a>
+        <a href='https://twitter.com/sahilsaitn' target="_blank" noopener noreferrer><FaTwitter/></a>
         <a href="mailto:sahilsaitofficial@gmail.com">
           <FaEnvelope />
         </a>

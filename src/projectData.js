@@ -1,9 +1,9 @@
 const projectData = [
   {
-    name: "Project 1",
+    name: "Tokenize",
     link: "#",
     description:
-      "A little something. A little something. A little something. A little something. A little something",
+      "An ERC-20 token generator on the Matic Mumbai (Test) Network. 🛠 used - React for the UI & Solidity for writing the Smart Contract in a Hardhat development environment.",
   },
   {
     name: "Project 2",
