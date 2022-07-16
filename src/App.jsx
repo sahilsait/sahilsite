@@ -1,8 +1,9 @@
-import './App.css'
-import {FaTwitter, FaGithub, FaLinkedin, FaEnvelope} from "react-icons/fa"
-import Projects from './projects'
-import dp from "./dp.png"
-
+import './App.css';
+import {FaTwitter, FaGithub, FaLinkedin, FaEnvelope} from "react-icons/fa";
+import Projects from './projects';
+import dp from "./dp.png";
+import {HashLink as Link} from "react-router-hash-link";
+  
 function App() {
   return (
     <>
@@ -28,7 +29,7 @@ function App() {
         </a>
       </div>
       <div className='buttons'>
-        <a className='btn' href='#projects'>Projects</a>
+        <Link className='btn' to='#projects'  smooth>Projects</Link>
         <a className='btn' href='https://drive.google.com/file/d/1ylxVoGn_LdS4NDuQ0-pJxI71_fE9e4uf/view?usp=sharing' target="_blank" noopener noreferrer>Resume</a>
       </div>
     </div>

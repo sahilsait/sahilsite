@@ -2,6 +2,7 @@ import React from 'react'
 import "./projects.css"
 import projectData from "./projectData"
 import triangle from "./triangle.svg"
+import {HashLink as Link} from "react-router-hash-link"
 
 const Projects = () => {
   return (
@@ -20,7 +21,7 @@ const Projects = () => {
             )
           })}
         </div>
-        <a className='upBtn' href='#home'><img src={triangle}/></a>
+        <Link className='upBtn' to='#home' smooth><img src={triangle}/></Link>
     </div>
 
   )
