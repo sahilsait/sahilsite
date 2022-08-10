@@ -3,6 +3,7 @@ import "./projects.css"
 import projectData from "./projectData"
 import triangle from "./triangle.svg"
 import {HashLink as Link} from "react-router-hash-link"
+import {FaGithub} from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -16,7 +17,10 @@ const Projects = () => {
               <div className='project' key={project.name}>
                 <h3 style={{marginBottom: "1rem"}}>{project.name}</h3>
                 <p style={{marginBottom: "0.75rem"}}>{project.description}</p>
-                <a style={{textDecoration: "none", color: "black", fontWeight: "600"}} href='#'>Show Me!</a>
+                <div className='link-btns'>
+                  {project.link != "#" && <a style={{textDecoration: "none", color: "black", fontWeight: "600",  marginRight: "1rem"}} href={project.link} target="_blank" noopener noreferrer>Show Me!</a>}
+                  <a style={{fontSize: "larger", color:"black", fontWeight: "600"}} href={project.github} target="_blank" noopener noreferrer><FaGithub /></a>
+                </div>
               </div>
             )
           })}
