@@ -1,67 +1,111 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .home {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #f8f9fa;
 }
 
-.home h1 {
-background: -webkit-linear-gradient( #4776E6, #8E54E9);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #6c757d;
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #343a40;
+  margin-top: 0;
+}
+
+.image-container {
+  margin-bottom: 1.5rem;
 }
 
 .photo {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    padding: 1rem;
-    vertical-align: middle;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-}
-
-.avatar {
-    height: 200px;
-    width: 200px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .bio {
-    margin-bottom: 2rem;
-    font-size: large;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #495057;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
 }
 
 .social-networks {
-    margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-bottom: 1.5rem;
 }
 
 .social-networks a {
-    margin-right: 1rem;
-    margin-left: 1rem;
-    font-size: larger;
-    color: black;
+  color: #495057;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-networks a:hover {
+  color: #7952b3;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
 }
 
 .btn {
-    text-decoration: none;
-    margin-right: 4rem;
-    margin-left: 4rem;
-    font-size: large;
-    font-weight: 600;
-    padding:16px 32px;
-    text-align: center;
-    color: white;
-    background-image: linear-gradient(to left, #4776E6,#8E54E9);
-    border-radius: 30px;
+  padding: 0.75rem 1.5rem;
+  background-color: #7952b3;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #614092;
+}
+
+@media (max-width: 768px) {
+  .home {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .photo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .bio {
+    font-size: 1rem;
+  }
 }
