@@ -17,9 +17,9 @@ function App() {
           <img className='photo' src={dp} alt='Sahil Sait' />
         </div>
         <div className='bio'>
-          Playing around with LLMs and a bunch of other stuff.
+          Playing around with LLMs and a bunch of other stuff :)
           <br />
-          AI/ML Systems Engineer
+          AI/ML Systems Engineer | Grad @SJSU
         </div>
         <div className='social-networks'>
           <a href='https://www.linkedin.com/in/sahilsait/' target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>

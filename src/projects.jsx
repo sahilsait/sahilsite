@@ -37,7 +37,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
-      <Link className="up-button" to="#home" smooth>
+      <Link className="scroll-up-button" to="#home" smooth>
         <img src={triangle} alt="Go to top" />
       </Link>
     </div>
